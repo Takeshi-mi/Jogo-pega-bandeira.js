@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Pega Bandeiras</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='assets/styles.css'>
+
+</head>
+
+<body onload="iniciarJogo()" onload="contarTempo()">
+
+    <div>
+        Pontos: <strong><span id="pontos">0</span></strong>
+    </div>
+    <div>
+        Tempo: <strong><span id="tempo">20</span></strong> segundos
+    </div>
+    <hr>
+
+    <div id="tela">
+        <img onclick="pegou(this)" style="position: absolute;" src="img/vermelho.png"/>
+        <img onclick="pegou(this)" style="position: absolute;" src="img/amarelo.webp"/>
+        <img onclick="pegou(this)" style="position: absolute;" src="img/preto.webp"/>
+    </div>
+
+
+
+
+
+    <script src='script.js'></script>
+</body>
+</html>

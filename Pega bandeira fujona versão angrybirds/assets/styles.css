@@ -1,0 +1,13 @@
+img{
+    height: 100px;
+}
+body{
+    background-color: lightblue;
+}
+#tela{
+    box-sizing: border-box;
+    padding: 100px;
+    border-color: blue;
+    border: 3px;
+    background-color: azure;
+}
